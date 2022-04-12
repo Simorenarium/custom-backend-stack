@@ -1,0 +1,5 @@
+database:
+  connection-string: "${DB_CONNECTION_STRING:-jdbc:postgresql://localhost:5432/postgres}"
+  driver: "${DB_DRIVER:-org.postgresql.Driver}"
+  username: "${DB_USERNAME:-postgres}"
+  password: "${DB_PASSWORD:-postgres}"

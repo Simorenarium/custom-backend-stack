@@ -1,0 +1,5 @@
+database:
+  connection-string: "${DB_CONNECTION_STRING:-jdbc:h2:mem:USERMGMT;MODE=PostgreSQL}"
+  driver: "${DB_DRIVER:-org.h2.Driver}"
+  username: "${DB_USERNAME:-sa}"
+  password: "${DB_PASSWORD:-}"
